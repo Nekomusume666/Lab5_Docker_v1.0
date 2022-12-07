@@ -31,8 +31,8 @@ jobs:
         id: "login"
         uses: docker/login-action@v2.1.0
         with:
-          username: Nekomusume666
-          password: CherryCat69
+          username: CherryCat
+          password: Mars131213
       -
         name: "Docker build & push"
         id: "build"
@@ -40,4 +40,4 @@ jobs:
         with:
           dockerfile: ./Dockerfile
           push: true
-          tags: Nekomusume666/lab5:latest
+          tags: CherryCat/lab5:latest
